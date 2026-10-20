@@ -1,18 +1,23 @@
-# Olivia295 Tap
+# Olivia295/tap
 
-## How do I install these formulae?
+Homebrew formulae by Olivia295.
 
-`brew install olivia295/tap/<formula>`
+| Formula | Description |
+|---|---|
+| [drivingfalcon](https://github.com/Olivia295/drivingfalcon) | Zen terminal flight through a quiet galaxy (non-commercial fan project) |
 
-Or `brew tap olivia295/tap` and then `brew install <formula>`.
+## Install
 
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "olivia295/tap"
-brew "<formula>"
+```bash
+brew install Olivia295/tap/drivingfalcon
 ```
 
-## Documentation
+Or tap first, then install by name:
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```bash
+brew tap Olivia295/tap
+```
+
+```bash
+brew install drivingfalcon
+```
